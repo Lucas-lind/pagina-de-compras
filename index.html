@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Página de Compra</title>
+</head>
+<body>
+    <header>
+        <h1>Loja Online</h1>
+        <div class="cart">
+            <span class="cart-count">0</span>
+            <img src="ICONE.webp" alt="Carrinho de Compras">
+        </div>
+    </header>
+
+    <section class="products">
+        <!-- Exemplo de Produto -->
+        <div class="product">
+            <img src="imgem.JPG" alt="Paisagem">
+            <h2>Imagem da arvore</h2>
+            <p>R$ 20,00</p>
+            <button class="add-to-cart">Adicionar ao Carrinho</button>
+        </div>
+
+        <!-- Outros Produtos Aqui -->
+    </section>
+
+    <section class="cart-items">
+        <h2>Carrinho de Compras</h2>
+        <ul class="cart-list">
+            <!-- Itens do Carrinho aparecerão aqui -->
+        </ul>
+        <div class="cart-total">
+            <p>Total: R$ <span id="total">0,00</span></p>
+            <button class="checkout">Finalizar Compra</button>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
